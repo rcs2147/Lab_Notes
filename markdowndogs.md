@@ -8,9 +8,10 @@ So first we have to import the url and csv library so python knows what to do wi
 
 and here is the url we are opening using the urlretrieve function built in to python: 
 
-````urllib.urlretrieve("http://jonathansoma.com/lede/dogs.csv","dogs.csv")````
+```urllib.urlretrieve("http://jonathansoma.com/lede/dogs.csv","dogs.csv")```
 
 So now that we have retrieved it, we have to tell python to read it in a csv format:
+
 ````dog_file = open("dogs.csv", "rb")````
 ````dogscsv = csv.reader(dog_file, delimiter=',')````
 
