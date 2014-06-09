@@ -4,7 +4,7 @@
 So first we have to import the url and csv library so python knows what to do with it.
 
 ````import url````
-````import csv````
+```import csv```
 
 and here is the url we are opening using the urlretrieve function built in to python: 
 
